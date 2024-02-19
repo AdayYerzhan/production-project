@@ -26,16 +26,3 @@ export function buildWebpackConfig(options: BuildOptions): webpack.Configuration
     };
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
