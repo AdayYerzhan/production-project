@@ -10,7 +10,6 @@ export const LangSwitcher = ({className}: LangSwitcherProps) => {
     const { t, i18n} = useTranslation();
 
     const toggle = () => {
-        // eslint-disable-next-line i18next/no-literal-string
         i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
     };
 
