@@ -43,9 +43,21 @@ module.exports = {
         'object-curly-spacing': 'off',
         'react/no-deprecated': 'off',
         quotes: 'off',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'i18next/no-literal-string': ['error',
+            {
+                markupOnly: true,
+                ignoreAttribute: ['data-testid', 'to'],
+            }],
     },
     globals: {
         __IS_DEV__: true,
     },
+    overrides: [
+        {
+            files: ['**/src/**/*.test.{ts,tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off',
+            },
+        },
+    ],
 };
