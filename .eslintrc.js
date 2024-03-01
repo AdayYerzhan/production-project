@@ -21,6 +21,7 @@ module.exports = {
         'react',
         '@typescript-eslint',
         "i18next",
+        "react-hooks",
     ],
     rules: {
         'react/jsx-indent': [2, 4],             // Оступ JSX 4 пробела
@@ -48,6 +49,8 @@ module.exports = {
                 markupOnly: true,
                 ignoreAttribute: ['data-testid', 'to'],
             }],
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'error',
     },
     globals: {
         __IS_DEV__: true,
