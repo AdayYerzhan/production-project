@@ -1,9 +1,9 @@
 {
-  "Язык": "",
-  "Главаная": "Главаная",
-  "О сайте": "О сайте",
+  "decrement": "decrement",
+  "increment": "increment",
   "toggle": "toggle",
   "Войти": "Войти",
-  "increment": "increment",
-  "decrement": "decrement"
+  "Главаная": "Главаная",
+  "О сайте": "О сайте",
+  "Язык": ""
 }
