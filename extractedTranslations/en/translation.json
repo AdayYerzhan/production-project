@@ -3,5 +3,7 @@
   "Главаная": "Главаная",
   "О сайте": "О сайте",
   "toggle": "toggle",
-  "Войти": "Войти"
+  "Войти": "Войти",
+  "increment": "increment",
+  "decrement": "decrement"
 }
