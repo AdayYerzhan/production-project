@@ -14,7 +14,7 @@ const MaingPage = () => {
         <div>
             {t("Главаная страница")}
             <Input
-                placeholder='Введите текст'
+                placeholder={t("Введите текст")}
                 value={value}
                 onChange={onChange}
             />
