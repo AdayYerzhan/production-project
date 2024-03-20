@@ -20,6 +20,7 @@ export const Text = (props: TextProps) => {
         text,
         theme = TextTheme.PRIMARY,
     } = props;
+
     return (
         <div className={ classNames(cls.Text, {[cls[theme]]: true}, [className]) }>
             {title && <p className={cls.title}>{title}</p>}
